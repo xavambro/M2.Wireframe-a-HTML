@@ -11,18 +11,31 @@ header{
     margin-top:20px;
     margin-bottom: 22px;
     display:flex;
+    align-items:center;
+    position:relative;
 }
 
 .logotipo{
     background-color:rgb(139, 114, 82);
     height:60px;
     width:200px;
+    position:absolute;
+    left: 30px;
 
 }
 .redes{
-    background-color:rgb(139, 114, 82);
+    
     height:42px;
     width:140px;
+    position:absolute;
+    left: 840px;
+    display:flex;
+    justify-content:space-between;
+}
+.icono {
+    width:40px;
+    border-radius:50%;
+    background-color:rgb(139, 114, 82);
 }
 
 nav{
@@ -46,14 +59,27 @@ li{
     
     width:20%;
     height:100%;
-    border-right:1px solid black;
+    border-right:1px solid grey;
     
 }
 .destacados{
     height:192px;
     margin-bottom:26px;
     background-color:burlywood;
+    display:flex;
 
+}
+.destacado{
+    width:33%;
+    height:100%;
+    background-color:rgb(139, 114, 82);
+}
+.destacado1{
+    width:33%;
+    height:100%;
+    margin-right:5px;
+    margin-left:5px;
+    background-color:rgb(139, 114, 82);
 }
 .principal{
     height:450px;
@@ -61,8 +87,32 @@ li{
     background-color:burlywood;
 
 }
+article{
+    height:100%;
+    width:600px;
+    margin:auto;
+    background-color:rgb(139, 114, 82);
+}
 footer{
     height:70px;
     margin-bottom:20px;
     background-color:burlywood;
 }
+
+/* Queries*/
+@media (max-width:1000px) {
+    body {
+        width:100%
+    }
+    .redes{ 
+        left: 60%;
+    }
+}
+@media (max-width:600px) {
+    article {
+        width:100%;
+    }
+
+}
+    
+
