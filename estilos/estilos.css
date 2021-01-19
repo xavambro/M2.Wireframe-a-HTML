@@ -5,6 +5,7 @@ body {
     width:1000px;
     margin:auto;
 }
+/* Header */
 header{
     background-color:burlywood;
     height:120px;
@@ -12,6 +13,7 @@ header{
     margin-bottom: 22px;
     display:flex;
     align-items:center;
+    
     position:relative;
 }
 
@@ -33,11 +35,11 @@ header{
     justify-content:space-between;
 }
 .icono {
-    width:40px;
+    width:30%;
     border-radius:50%;
     background-color:rgb(139, 114, 82);
 }
-
+/* Navegación*/
 nav{
     
     height:48px;
@@ -62,6 +64,7 @@ li{
     border-right:1px solid grey;
     
 }
+/* Seccion elementos destacados */
 .destacados{
     height:192px;
     margin-bottom:26px;
@@ -81,6 +84,7 @@ li{
     margin-left:5px;
     background-color:rgb(139, 114, 82);
 }
+/*Seccion principal */
 .principal{
     height:450px;
     margin-bottom:26px;
@@ -93,13 +97,14 @@ article{
     margin:auto;
     background-color:rgb(139, 114, 82);
 }
+/* Footer*/
 footer{
     height:70px;
     margin-bottom:20px;
     background-color:burlywood;
 }
 
-/* Queries*/
+/* Media Queries*/
 @media (max-width:1000px) {
     body {
         width:100%
@@ -112,7 +117,21 @@ footer{
     article {
         width:100%;
     }
+    
 
 }
+@media (max-width:420px) {
+    .redes{
+        width:50%;
+        
+
+    }
+    .logotipo{
+        width :50%;
+        
+    }
+    
+}
+
     
 
