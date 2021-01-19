@@ -13,26 +13,27 @@ header{
     margin-bottom: 22px;
     display:flex;
     align-items:center;
+    justify-content:space-between;
     
-    position:relative;
 }
 
 .logotipo{
     background-color:rgb(139, 114, 82);
     height:60px;
     width:200px;
-    position:absolute;
-    left: 30px;
+    margin-left: 30px;
+    margin-right:5px;
+    
 
 }
 .redes{
     
     height:42px;
     width:140px;
-    position:absolute;
-    left: 840px;
+    
     display:flex;
     justify-content:space-between;
+    margin-right:30px;
 }
 .icono {
     width:30%;
@@ -109,9 +110,7 @@ footer{
     body {
         width:100%
     }
-    .redes{ 
-        left: 60%;
-    }
+    
 }
 @media (max-width:600px) {
     article {
@@ -121,15 +120,7 @@ footer{
 
 }
 @media (max-width:420px) {
-    .redes{
-        width:50%;
-        
-
-    }
-    .logotipo{
-        width :50%;
-        
-    }
+    
     
 }
 
