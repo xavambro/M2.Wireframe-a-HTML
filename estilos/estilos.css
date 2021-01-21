@@ -197,6 +197,23 @@ footer{
         width:100%;
         height:auto;
     }
+    .destacados{
+        flex-direction:column;
+        height:auto;
+    }
+    .destacado{
+        width:100%;
+    }
+    .destacadoCentral{
+        width:100%;
+        margin:0;
+
+    }
+}
+@media(max-width:330px){
+    .destacado{
+        flex-direction:column;
+    }
 }
 
     
